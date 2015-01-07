@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Looping Gifs</title>
+	<style type="text/css">
+	body {
+		margin:0;
+	}
+	#gifs > img {
+		display:block;
+		float:left;
+		width:50vw;
+		height:50vh;
+		object-fit:cover;
+	}
+	</style>
+</head>
+<body>
+	<div id="gifs">
+		<h1>GIFS SHALL APPEAR HERE</h1>
+	</div>
+	
+	<!-- Test setup
+	<script src="jspm_packages/system.js"></script>
+	<script src="config.js"></script>
+	<script>
+		System.import('lib/main')
+	</script>
+	-->
+
+	<!-- Production setup -->
+	<script type="text/javascript" src="jspm_packages/traceur-runtime.js"></script>
+	<script src="build.js"></script>
+</body>
+</html>

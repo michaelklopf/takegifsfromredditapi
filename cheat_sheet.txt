@@ -1,0 +1,35 @@
+# done via -> http://glenmaddern.com/articles/javascript-in-2015
+
+# install
+npm install -g jspm
+
+# make new dir
+mkdir src/loopgifs
+cd src/loopgifs
+
+jspm init
+
+# press enter to accept all defaults
+
+# create index.html
+
+# install live server
+npm install -g live-server
+
+# start live server
+live-server
+
+# play with es6, add class RedditApi
+
+# get a url from Reddit
+# http://www.reddit.com/r/perfectloops/top.json?jsonp=callbackFunction
+
+# now use jspm to load a jsonp module from npm
+jspm install npm:jsonp
+
+# add config.js in script tag
+
+# to make everything ready for production
+jspm bundle-sfx --minify lib/main
+
+# then change to production js includes
